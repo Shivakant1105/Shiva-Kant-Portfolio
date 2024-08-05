@@ -157,28 +157,45 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C4E0BAQHMzQxDnJsK5w/company-logo_200_200/0/1630640683883/liangtuang_logo?e=2147483647&v=beta&t=aybuaZnjOw76IC4_EsqEF2I9_bcS-DI1FTMddOdaGsM",
-    role: "Front-end Developer",
-    company: "LiangTuang Technologies Pvt Ltd",
-    date: "Feb 2024 - Present",
-    desc: "Working in crafting responsive and visually appealing web interfaces using HTML, CSS, and Bootstrap.Skilled in leveraging JavaScript to enhance user interactions and create dynamic, engaging websites.",
+    img: "https://zzv5g12a3unl.cdn.shift8web.com/wp-content/uploads/2022/01/In2IT-Technologies.png",
+    role: "Angular Developer",
+    company: "In2IT Technologies Pvt. Ltd.",
+    date: "April 2024 - Present",
+    desc: "Managing Front-end Part and responsive of website , and optimized performance and collaborated effectively, delivering results in high-pressure tech environments. Skilled in leveraging JavaScript and angular to enhance user interactions and create dynamic, engaging websites.",
     skills: [
       "Html",
       "Css",
       "JavaScript",
       "BootStrap",
-      "React Js",
-      "Next Js"
+   "Angular"
+     
     ],
     doc: "",
   },
+  // {
+  //   id: 1,
+  //   img: "https://media.licdn.com/dms/image/C4E0BAQHMzQxDnJsK5w/company-logo_200_200/0/1630640683883/liangtuang_logo?e=2147483647&v=beta&t=aybuaZnjOw76IC4_EsqEF2I9_bcS-DI1FTMddOdaGsM",
+  //   role: "Front-end Developer",
+  //   company: "LiangTuang Technologies Pvt Ltd",
+  //   date: "Feb 2024 - April 2024",
+  //   desc: "Working in crafting responsive and visually appealing web interfaces using HTML, CSS, and Bootstrap.Skilled in leveraging JavaScript to enhance user interactions and create dynamic, engaging websites.",
+  //   skills: [
+  //     "Html",
+  //     "Css",
+  //     "JavaScript",
+  //     "BootStrap",
+  //     "React Js",
+  //     "Next Js"
+  //   ],
+  //   doc: "",
+  // },
   {
     id: 1,
     img: "data:image/png;base64,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",
     role: "Front-end Developer",
     company: "Etelligens Technologies Pvt. Ltd.",
-    date: "Feb 2023 - Aug 2023",
-    desc: "Working on live project, managing Front-end Part and responsive of website , and soptimized performance and collaborated effectively, delivering results in high-pressure tech environments.",
+    date: "Feb 2023 - April 2024",
+    desc: "Working on live project, managing Front-end Part and responsive of website , and optimized performance and collaborated effectively, delivering results in high-pressure tech environments.",
     skills: [
       "Html",
       "Css",
