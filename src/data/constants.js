@@ -8,10 +8,11 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Frontend Developer with 1.5 years of professional experience in building dynamic and responsive web applications using Angular, JavaScript, TypeScript, and RxJS. Known for quickly adapting to new technologies, enhancing processes, and delivering scalable, high-quality solutions. A proactive team player with strong problem-solving skills, committed to creating efficient and user-focused frontend applications",
+    // "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shivakant1105",
   resume:
-    "https://drive.google.com/file/d/1AxypGLSgkONHYZ2VX2HgBksIAWL5luMK/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1Ul4En7jFuETWoP4_0dxpkC6yBj5Jwwqs/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/shiva1105/",
   twitter: "https://twitter.com/ShivaKant1105",
   insta: "https://www.instagram.com/shiva_kant1105/",
@@ -161,7 +162,7 @@ export const experiences = [
     role: "Angular Developer",
     company: "In2IT Technologies Pvt. Ltd.",
     date: "April 2024 - Present",
-    desc: "Managing Front-end Part and responsive of website , and optimized performance and collaborated effectively, delivering results in high-pressure tech environments. Skilled in leveraging JavaScript and angular to enhance user interactions and create dynamic, engaging websites.",
+    desc: "Developed an advanced CRM tool for OSS/BSS solutions, enhancing customer data management and supportingdynamic change requests. Integrated CRM with Service Order Management for seamless and accurate order processing. Built dynamic forms, user dashboards with amCharts5, and reusable components using ag-Grid for enhanced functionality and user experience.",
     skills: [
       "Html",
       "Css",
@@ -238,11 +239,11 @@ export const education = [
     grade: "6.78 CGPA",
     desc: "I am graduated a Bachelor's degree in Computer Engineering & Information Technology at Abes Engineering Collge, Ghaziabad. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Technical Lead of HUHC, Overall coordinator of Environ Club, Organizing college technical fest.",
     degree:
-      "Bachelor of Technology - BTech, Computer Engineering & Information Technology",
+      "Bachelor of Technology - B.Tech, Computer Engineering & Information Technology",
   },
   {
     id: 1,
-    img: "https://ueacademy.in/wp-content/uploads/2023/08/cropped-31357910_604945199838103_3758228973935394816_n.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvBxuWrRtnIZGFwB5w1RiflPWIB02mgnBViQ&s",
     school: "Urmila Educational Academy, Basti",
     date: "Apr 2015 - Apr 2017",
     grade: "75%",
@@ -251,7 +252,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://ueacademy.in/wp-content/uploads/2023/08/cropped-31357910_604945199838103_3758228973935394816_n.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvBxuWrRtnIZGFwB5w1RiflPWIB02mgnBViQ&s",
     school: "Urmila Educational Academy, Basti",
     date: "Apr 2013 - Apr 2015",
     grade: "83.13%",
@@ -261,6 +262,27 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 10,
+    title: "Spike-(Organization-Admin-Panel)",
+    date: "Aug 2024 - Oct 2024",
+    description:
+      " Designed and developed a robust role-based admin panel for organizational management, providing functionality for admin and user roles. Implemented role-based authentication and authorization to ensure secure access for admins and users. Developed modules for managing employees, contacts, blogs, notes, and a taskboard using Angular Integrated SweetAlert (Swal) for intuitive and user-friendly error alerts and notifications, enhancing the user experience.",
+    image:
+      "https://spike-angular-pro-main.netlify.app/assets/images/landingpage/demos/demo-main.jpg",
+
+    tags: [
+      "Html/ScSss",
+      "JavaScript",
+      "Angular",
+      "Bootstrap",
+      "TypeScript",
+     
+    ],
+    category: "web app",
+    github: "https://github.com/Shivakant1105",
+    webapp: "https://spike-admin-panel.netlify.app/",
+  },
   {
     id: 9,
     title: "Hauskarma",
@@ -282,19 +304,20 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Shivakant1105/Hauskarma",
     webapp: "https://hauskarma.netlify.app/",
-  },{
-    id: 5,
-    title: "Foodiemart",
-    date: "Jun 2021",
-    description:
-      " Aesigned and developed a dynamic and responsive food website using Angular, showcasing a passion for both culinary arts and cutting-edge web development.",
-    image:
-      "",
-    tags: [ "Html", "Css","TypeScript", "Angular" ],
-    category: "web app",
-    github: "https://github.com/Shivakant1105/Foodiemart",
-    webapp: "https://github.com/Shivakant1105/",
   },
+  // {
+  //   id: 5,
+  //   title: "Foodiemart",
+  //   date: "Jun 2021",
+  //   description:
+  //     " Aesigned and developed a dynamic and responsive food website using Angular, showcasing a passion for both culinary arts and cutting-edge web development.",
+  //   image:
+  //     "",
+  //   tags: [ "Html", "Css","TypeScript", "Angular" ],
+  //   category: "web app",
+  //   github: "https://github.com/Shivakant1105/Foodiemart",
+  //   webapp: "https://github.com/Shivakant1105/",
+  // },
 
   {
     id: 0,
@@ -318,11 +341,11 @@ export const projects = [
     description:
       "E-Commerce Website with React JS Overview This repository contains the source code for an eCommerce website built using React JS. The website offers various features, including displaying trending products, product categories for men, women, and kids, a single product page with detailed information..",
     image:
-      "https://github.com/Shivakant1105/E-Commerce-Shopper/blob/main/screencapture-shopper3-netlify-app-2024-02-17-23_03_32.png",
+      "https://i.ytimg.com/vi/jbfuzcrfjqQ/maxresdefault.jpg",
     tags: [ "Html", "Css","JavaScript", "React Js" ],
     category: "web app",
     github: "https://github.com/Shivakant1105/E-Commerce-Shopper",
-    webapp: "shopper3.netlify.app",
+    webapp: "https://shopper3.netlify.app/",
   },
   
 ];

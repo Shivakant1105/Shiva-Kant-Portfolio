@@ -15,7 +15,6 @@ const FooterContainer = styled.div`
   //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
 
-
 const FooterWrapper = styled.footer`
   width: 100%;
   max-width: 1200px;
@@ -88,7 +87,6 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
-
 function Footer() {
   return (
     <FooterContainer>
@@ -109,7 +107,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Shiva Kant. All rights reserved.
+          &copy; 2025 Shiva Kant. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
